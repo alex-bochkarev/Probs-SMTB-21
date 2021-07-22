@@ -1,0 +1,66 @@
+#+TITLE: A Practical Intro to Probability Theory.
+/SMTB-2021. Based on the [[https://github.com/alex-bochkarev/zpsh-21-probs][course]] for ZPSH-2021 (in Russian)/
+
+* [ ∑ ] Summary
+  *Course point:* A "plain English" / sort-of-intuitive introduction to Probability Theory built around numerical examples in Python. We will not prove theorems, but this is a _theoretical_ course: the emphasis is not on "solving problems", but on understanding the math behind random events. What is the /structure/ of randomness? Can we model the length of a Facebook post as a random variable? And a sci-fiction text as a random sequence of letters?.. We will be looking for a balance between the Ivory Tower math and practice of modeling random things. In particular, we will try to build the Probability Space model, discuss what are random variables, what are some of their types and key properties (such as expectation and variance) and briefly touch the hypotheses testing. 
+
+  *Timeframe:* Four classes, 50 minutes each. No mandatory home assignments.
+
+  *Prerequisites:*
+    + Strict: You must like math ☺ 🤷.
+    + Less strict: being comfortable with basic (school) math and having curiosity about what might come next. Familiarity with a Python is a plus, but willingness to read the code (think: plain English) will be necessary.
+
+  *Tech needed:* having a working python (preferably python3) installation locally along with Jupyter Notebook will help. However, you will be just OK using [[https://colab.research.google.com][Google Colab]] (in which case you will need just a web browser and a free Google account).
+
+This repository will be updated with the current materials as the course unfolds, so come back to check it out! Tentative course outline is as follows. 
+
+* Course outline     
+** 👉 Topic 0: Intro
+   - welcome to the course!
+   - about me
+   - about the course / logistics (discord, HWs, conclusion)
+   - about you
+
+** 👉 Topic 1: Model for Random Events
+   - Classical definition of probabilities; frequencies.
+   - Experiments with dice.
+   - Experiments with +crocodiles+ black and while balls.
+   - A math model for random events: Probability space. Outcomes, events. Notes on Set theory.
+   - A couple of numerical illustrations for random events.
+
+** Topic 2: Independence, Tests, and Co.
+   - Crocodiles and rabbits revised (aka black and white balls).
+   - Dependent and Independent events.
+   - Conditional probability.
+   - COVID test as a random variable. Characterizing tests.
+
+** Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.
+   - Definition of the random variable.
+   - Quick examples: score on dice; an RV with countably many values (Poisson)
+   - Bernoulli scheme (a "biased" coin) and Binomial distribution (counting the number of "Heads").
+   - PMF, CDF.
+       
+** Topic 4: Random Variables: continuous case.
+   - Motivation: a random variable that "can be anything"
+   - A histogram.
+   - PDF, CDF.
+   - Examples: uniform, normal random variables.
+   - A numerical illustration for Central Limit Theorem.
+     
+** Topic 🏁: Conclusion
+    - Quick summary.
+    - On different/popular types of random variables.
+    - On random models of random things.
+       
+
+# * Further reading / learning
+# 🌍 *Online:* 
+  # - хороший вводный курс на русском: [[https://ru.coursera.org/learn/mathematics-and-python][Математика и Python для анализа данных]] от МФТИ, Яндекс и Ко.
+    # (не только теорвер, но есть неделя "Случайность")
+  # - hardcore university course: [[https://www.edx.org/course/probability-the-science-of-uncertainty-and-data][Probability - The Science of
+  #   Uncertainty and Data]] от MiTx (ENG).
+
+  # 📖 *Books:*
+  # - лекции НГУ: Н.И. Чернова [[https://tvims.nsu.ru/chernova/tv/tv_nsu07.pdf]["Теория вероятностей"]]. 🔥
+  # - "Введение в теорию вероятностей." Колмогоров, Журбенко, Прохоров (!) -- см. [[http://publ.lib.ru/ARCHIVES/B/%27%27Bibliotechka_%27%27Kvant%27%27/_''BK''.html#0023][Библиотечка "Квант"]].
+  # - может быть, [[http://ilib.mccme.ru/pdf/rasomn.pdf]["Рассказы о теории множеств"]] Н.Я. Виленкина
