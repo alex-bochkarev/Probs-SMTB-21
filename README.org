@@ -1,4 +1,7 @@
 #+TITLE: A Practical Intro to Probability Theory.
+#+AUTHOR: Alexey Bochkarev (www.bochkarev.io/contact)
+#+OPTIONS: toc:nil num:nil
+
 /SMTB-2021. Based on the [[https://github.com/alex-bochkarev/zpsh-21-probs][course]] for ZPSH-2021 (in Russian)/
 
 * [ ∑ ] Summary
@@ -15,12 +18,6 @@
 This repository will be updated with the current materials as the course unfolds, so come back to check it out! Tentative course outline is as follows. 
 
 * Course outline     
-** 👉 Topic 0: Intro
-   - welcome to the course!
-   - about me
-   - about the course / logistics (discord, HWs, conclusion)
-   - about you
-
 ** 👉 Topic 1: Model for Random Events
    - Classical definition of probabilities; frequencies.
    - Experiments with dice.
