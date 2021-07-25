@@ -53,8 +53,8 @@
 Course outline
 ══════════════
 
-👉 Topic 1: Model for Random Events
-───────────────────────────────────
+Topic 1: Model for Random Events
+────────────────────────────────
 
   • Classical definition of probabilities; frequencies.
   • Experiments with dice.
@@ -62,6 +62,14 @@ Course outline
   • A math model for random events: Probability space. Outcomes, events.
     Notes on Set theory.
   • A couple of numerical illustrations for random events.
+
+  📔 *Notebook:* [(ipynb)] [(nbviewer)]
+
+
+[(ipynb)] <./1-probability.ipynb>
+
+[(nbviewer)]
+<https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/1-probability.ipynb>
 
 
 Topic 2: Independence, Tests, and Co.
@@ -72,9 +80,17 @@ Topic 2: Independence, Tests, and Co.
   • Conditional probability.
   • COVID test as a random variable. Characterizing tests.
 
+  📔 *Notebook:* [(ipynb)] [(nbviewer)]
 
-Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.
-─────────────────────────────────────────────────────────────────────────────────
+
+[(ipynb)] <./2-independence.ipynb>
+
+[(nbviewer)]
+<https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/2-independence.ipynb>
+
+
+👉 Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.
+────────────────────────────────────────────────────────────────────────────────────
 
   • Definition of the random variable.
   • Quick examples: score on dice; an RV with countably many values
@@ -82,6 +98,14 @@ Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme
   • Bernoulli scheme (a "biased" coin) and Binomial distribution
     (counting the number of "Heads").
   • PMF, CDF.
+
+  📔 *Notebook:* [(ipynb)] [(nbviewer)]
+
+
+[(ipynb)] <./3-random-vars.ipynb>
+
+[(nbviewer)]
+<https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/3-random-vars.ipynb>
 
 
 Topic 4: Random Variables: continuous case.

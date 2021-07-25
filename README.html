@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-07-23 Fri 05:18 -->
+<!-- 2021-07-25 Sun 15:55 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>A Practical Intro to Probability Theory.</title>
@@ -223,9 +223,9 @@
 <i>SMTB-2021. Based on the <a href="https://github.com/alex-bochkarev/zpsh-21-probs">course</a> for ZPSH-2021 (in Russian)</i>
 </p>
 
-<div id="outline-container-orge8bdfd6" class="outline-2">
-<h2 id="orge8bdfd6">[ ∑ ] Summary</h2>
-<div class="outline-text-2" id="text-orge8bdfd6">
+<div id="outline-container-org731f2fa" class="outline-2">
+<h2 id="org731f2fa">[ ∑ ] Summary</h2>
+<div class="outline-text-2" id="text-org731f2fa">
 <p>
 <b>Course point:</b> A "plain English" / sort-of-intuitive introduction to Probability Theory built around numerical examples in Python. We will not prove theorems, but this is a <span class="underline">theoretical</span> course: the emphasis is not on "solving problems", but on understanding the math behind random events. What is the <i>structure</i> of randomness? Can we model the length of a Facebook post as a random variable? And a sci-fiction text as a random sequence of letters?.. We will be looking for a balance between the Ivory Tower math and practice of modeling random things. In particular, we will try to build the Probability Space model, discuss what are random variables, what are some of their types and key properties (such as expectation and variance) and briefly touch the hypotheses testing. 
 </p>
@@ -252,13 +252,13 @@ This repository will be updated with the current materials as the course unfolds
 </div>
 </div>
 
-<div id="outline-container-org35e539c" class="outline-2">
-<h2 id="org35e539c">Course outline</h2>
-<div class="outline-text-2" id="text-org35e539c">
+<div id="outline-container-org0185109" class="outline-2">
+<h2 id="org0185109">Course outline</h2>
+<div class="outline-text-2" id="text-org0185109">
 </div>
-<div id="outline-container-orgcec64d1" class="outline-3">
-<h3 id="orgcec64d1">👉 Topic 1: Model for Random Events</h3>
-<div class="outline-text-3" id="text-orgcec64d1">
+<div id="outline-container-org8f7b69b" class="outline-3">
+<h3 id="org8f7b69b">Topic 1: Model for Random Events</h3>
+<div class="outline-text-3" id="text-org8f7b69b">
 <ul class="org-ul">
 <li>Classical definition of probabilities; frequencies.</li>
 <li>Experiments with dice.</li>
@@ -266,36 +266,48 @@ This repository will be updated with the current materials as the course unfolds
 <li>A math model for random events: Probability space. Outcomes, events. Notes on Set theory.</li>
 <li>A couple of numerical illustrations for random events.</li>
 </ul>
+
+<p>
+📔 <b>Notebook:</b> <a href="./1-probability.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/1-probability.ipynb">(nbviewer)</a>
+</p>
 </div>
 </div>
 
-<div id="outline-container-orgc40e827" class="outline-3">
-<h3 id="orgc40e827">Topic 2: Independence, Tests, and Co.</h3>
-<div class="outline-text-3" id="text-orgc40e827">
+<div id="outline-container-orgaf6c1a6" class="outline-3">
+<h3 id="orgaf6c1a6">Topic 2: Independence, Tests, and Co.</h3>
+<div class="outline-text-3" id="text-orgaf6c1a6">
 <ul class="org-ul">
 <li>Crocodiles and rabbits revised (aka black and white balls).</li>
 <li>Dependent and Independent events.</li>
 <li>Conditional probability.</li>
 <li>COVID test as a random variable. Characterizing tests.</li>
 </ul>
+
+<p>
+📔 <b>Notebook:</b> <a href="./2-independence.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/2-independence.ipynb">(nbviewer)</a> 
+</p>
 </div>
 </div>
 
-<div id="outline-container-org8575fe7" class="outline-3">
-<h3 id="org8575fe7">Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.</h3>
-<div class="outline-text-3" id="text-org8575fe7">
+<div id="outline-container-org2e2b21d" class="outline-3">
+<h3 id="org2e2b21d">👉 Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.</h3>
+<div class="outline-text-3" id="text-org2e2b21d">
 <ul class="org-ul">
 <li>Definition of the random variable.</li>
 <li>Quick examples: score on dice; an RV with countably many values (Poisson)</li>
 <li>Bernoulli scheme (a "biased" coin) and Binomial distribution (counting the number of "Heads").</li>
 <li>PMF, CDF.</li>
 </ul>
+
+<p>
+📔 <b>Notebook:</b> <a href="./3-random-vars.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/3-random-vars.ipynb">(nbviewer)</a>      
+</p>
 </div>
 </div>
 
-<div id="outline-container-orgbdd211b" class="outline-3">
-<h3 id="orgbdd211b">Topic 4: Random Variables: continuous case.</h3>
-<div class="outline-text-3" id="text-orgbdd211b">
+<div id="outline-container-orgc3faae1" class="outline-3">
+<h3 id="orgc3faae1">Topic 4: Random Variables: continuous case.</h3>
+<div class="outline-text-3" id="text-orgc3faae1">
 <ul class="org-ul">
 <li>Motivation: a random variable that "can be anything"</li>
 <li>A histogram.</li>
@@ -306,9 +318,9 @@ This repository will be updated with the current materials as the course unfolds
 </div>
 </div>
 
-<div id="outline-container-org594b5a1" class="outline-3">
-<h3 id="org594b5a1">Topic 🏁: Conclusion</h3>
-<div class="outline-text-3" id="text-org594b5a1">
+<div id="outline-container-org8bef383" class="outline-3">
+<h3 id="org8bef383">Topic 🏁: Conclusion</h3>
+<div class="outline-text-3" id="text-org8bef383">
 <ul class="org-ul">
 <li>Quick summary.</li>
 <li>On different/popular types of random variables.</li>
@@ -320,7 +332,7 @@ This repository will be updated with the current materials as the course unfolds
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Alexey Bochkarev (www.bochkarev.io/contact)</p>
-<p class="date">Created: 2021-07-23 Fri 05:18</p>
+<p class="date">Created: 2021-07-25 Sun 15:55</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

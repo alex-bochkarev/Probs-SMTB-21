@@ -18,12 +18,14 @@
 This repository will be updated with the current materials as the course unfolds, so come back to check it out! Tentative course outline is as follows. 
 
 * Course outline     
-** 👉 Topic 1: Model for Random Events
+** Topic 1: Model for Random Events
    - Classical definition of probabilities; frequencies.
    - Experiments with dice.
    - Experiments with +crocodiles+ black and while balls.
    - A math model for random events: Probability space. Outcomes, events. Notes on Set theory.
    - A couple of numerical illustrations for random events.
+
+📔 *Notebook:* [[./1-probability.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/1-probability.ipynb][(nbviewer)]]
 
 ** Topic 2: Independence, Tests, and Co.
    - Crocodiles and rabbits revised (aka black and white balls).
@@ -31,12 +33,16 @@ This repository will be updated with the current materials as the course unfolds
    - Conditional probability.
    - COVID test as a random variable. Characterizing tests.
 
-** Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.
+📔 *Notebook:* [[./2-independence.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/2-independence.ipynb][(nbviewer)]] 
+
+** 👉 Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.
    - Definition of the random variable.
    - Quick examples: score on dice; an RV with countably many values (Poisson)
    - Bernoulli scheme (a "biased" coin) and Binomial distribution (counting the number of "Heads").
    - PMF, CDF.
        
+ 📔 *Notebook:* [[./3-random-vars.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/3-random-vars.ipynb][(nbviewer)]]      
+
 ** Topic 4: Random Variables: continuous case.
    - Motivation: a random variable that "can be anything"
    - A histogram.
