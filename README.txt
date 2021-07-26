@@ -7,6 +7,11 @@
 
 /SMTB-2021. Based on the [course] for ZPSH-2021 (in Russian)/
 
+*Status:*
+• _English_ track is over (comments / questions / feedback are still
+  very welcome!)
+• _Russian_ track starts 2021-07-28.
+
 
 [course] <https://github.com/alex-bochkarev/zpsh-21-probs>
 
@@ -63,13 +68,16 @@ Topic 1: Model for Random Events
     Notes on Set theory.
   • A couple of numerical illustrations for random events.
 
-  📔 *Notebook:* [(ipynb)] [(nbviewer)]
+  📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
 
 [(ipynb)] <./1-probability.ipynb>
 
 [(nbviewer)]
 <https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/1-probability.ipynb>
+
+[(colab)]
+<https://colab.research.google.com/github/alex-bochkarev/Probs-SMTB-21/blob/main/1-probability.ipynb>
 
 
 Topic 2: Independence, Tests, and Co.
@@ -80,7 +88,7 @@ Topic 2: Independence, Tests, and Co.
   • Conditional probability.
   • COVID test as a random variable. Characterizing tests.
 
-  📔 *Notebook:* [(ipynb)] [(nbviewer)]
+  📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
 
 [(ipynb)] <./2-independence.ipynb>
@@ -88,9 +96,12 @@ Topic 2: Independence, Tests, and Co.
 [(nbviewer)]
 <https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/2-independence.ipynb>
 
+[(colab)]
+<https://colab.research.google.com/github/alex-bochkarev/Probs-SMTB-21/blob/main/2-independence.ipynb>
 
-👉 Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.
-────────────────────────────────────────────────────────────────────────────────────
+
+Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.
+─────────────────────────────────────────────────────────────────────────────────
 
   • Definition of the random variable.
   • Quick examples: score on dice; an RV with countably many values
@@ -99,13 +110,16 @@ Topic 2: Independence, Tests, and Co.
     (counting the number of "Heads").
   • PMF, CDF.
 
-  📔 *Notebook:* [(ipynb)] [(nbviewer)]
+  📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
 
 [(ipynb)] <./3-random-vars.ipynb>
 
 [(nbviewer)]
 <https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/3-random-vars.ipynb>
+
+[(colab)]
+<https://colab.research.google.com/github/alex-bochkarev/Probs-SMTB-21/blob/main/3-random-vars.ipynb>
 
 
 Topic 4: Random Variables: continuous case.
@@ -114,13 +128,52 @@ Topic 4: Random Variables: continuous case.
   • Motivation: a random variable that "can be anything"
   • A histogram.
   • PDF, CDF.
-  • Examples: uniform, normal random variables.
-  • A numerical illustration for Central Limit Theorem.
+  • Examples: uniform, normal random variables. (*)
+  • A numerical illustration for Central Limit Theorem. (*)
+
+  (*) which we may or may not cover – didn't work for English track.
+
+  📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
 
-Topic 🏁: Conclusion
-────────────────────
+[(ipynb)] <./4-random-vars-cont.ipynb>
 
-  • Quick summary.
-  • On different/popular types of random variables.
-  • On random models of random things.
+[(nbviewer)]
+<https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/4-random-vars-cont.ipynb>
+
+[(colab)]
+<https://colab.research.google.com/github/alex-bochkarev/Probs-SMTB-21/blob/main/4-random-vars-cont.ipynb>
+
+
+Further reading / learning
+══════════════════════════
+
+  I am having hard times recommending good literature in English, but:
+  • 🌍 *online:* there are hardcore (but exciting!) university courses.
+    E.g., [Probability - The Science of Uncertainty and Data] by MiTx
+    (edx.org). I think it overlaps to an extent with the [OCW].
+  • 📖 *book:* There is a classical book by Sheldon M. Ross
+    *"Introduction to Probability Models"*. Pretty long, but
+    comprehensive, and definitely might be useful if you want to look up
+    something specific.
+
+    Note that a couple of things came up in a discussion during the
+    class: [Rosalind] (bioinf + programming) and [CrashCourse] videos.
+
+    Of course, there is also [KhanAcademy] and other numerous online
+    courses, videos, and resources on probability theory, of which I am
+    not sure what's really good. If you have a suggestion here – please
+    drop me a message!
+
+
+[Probability - The Science of Uncertainty and Data]
+<https://www.edx.org/course/probability-the-science-of-uncertainty-and-data>
+
+[OCW]
+<https://ocw.mit.edu/resources/res-6-012-introduction-to-probability-spring-2018/>
+
+[Rosalind] <http://rosalind.info>
+
+[CrashCourse] <https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q>
+
+[KhanAcademy] <https://www.khanacademy.org/math/statistics-probability>

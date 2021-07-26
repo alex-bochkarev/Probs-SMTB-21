@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-07-25 Sun 15:55 -->
+<!-- 2021-07-26 Mon 17:37 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>A Practical Intro to Probability Theory.</title>
@@ -223,9 +223,17 @@
 <i>SMTB-2021. Based on the <a href="https://github.com/alex-bochkarev/zpsh-21-probs">course</a> for ZPSH-2021 (in Russian)</i>
 </p>
 
-<div id="outline-container-org731f2fa" class="outline-2">
-<h2 id="org731f2fa">[ ∑ ] Summary</h2>
-<div class="outline-text-2" id="text-org731f2fa">
+<p>
+<b>Status:</b>
+</p>
+<ul class="org-ul">
+<li><span class="underline">English</span> track is over (comments / questions / feedback are still very welcome!)</li>
+<li><span class="underline">Russian</span> track starts 2021-07-28.</li>
+</ul>
+
+<div id="outline-container-orgcd0e808" class="outline-2">
+<h2 id="orgcd0e808">[ ∑ ] Summary</h2>
+<div class="outline-text-2" id="text-orgcd0e808">
 <p>
 <b>Course point:</b> A "plain English" / sort-of-intuitive introduction to Probability Theory built around numerical examples in Python. We will not prove theorems, but this is a <span class="underline">theoretical</span> course: the emphasis is not on "solving problems", but on understanding the math behind random events. What is the <i>structure</i> of randomness? Can we model the length of a Facebook post as a random variable? And a sci-fiction text as a random sequence of letters?.. We will be looking for a balance between the Ivory Tower math and practice of modeling random things. In particular, we will try to build the Probability Space model, discuss what are random variables, what are some of their types and key properties (such as expectation and variance) and briefly touch the hypotheses testing. 
 </p>
@@ -252,13 +260,13 @@ This repository will be updated with the current materials as the course unfolds
 </div>
 </div>
 
-<div id="outline-container-org0185109" class="outline-2">
-<h2 id="org0185109">Course outline</h2>
-<div class="outline-text-2" id="text-org0185109">
+<div id="outline-container-orgff13d1b" class="outline-2">
+<h2 id="orgff13d1b">Course outline</h2>
+<div class="outline-text-2" id="text-orgff13d1b">
 </div>
-<div id="outline-container-org8f7b69b" class="outline-3">
-<h3 id="org8f7b69b">Topic 1: Model for Random Events</h3>
-<div class="outline-text-3" id="text-org8f7b69b">
+<div id="outline-container-org1b876ca" class="outline-3">
+<h3 id="org1b876ca">Topic 1: Model for Random Events</h3>
+<div class="outline-text-3" id="text-org1b876ca">
 <ul class="org-ul">
 <li>Classical definition of probabilities; frequencies.</li>
 <li>Experiments with dice.</li>
@@ -268,14 +276,14 @@ This repository will be updated with the current materials as the course unfolds
 </ul>
 
 <p>
-📔 <b>Notebook:</b> <a href="./1-probability.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/1-probability.ipynb">(nbviewer)</a>
+📔 <b>Notebook:</b> <a href="./1-probability.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/1-probability.ipynb">(nbviewer)</a> <a href="https://colab.research.google.com/github/alex-bochkarev/Probs-SMTB-21/blob/main/1-probability.ipynb">(colab)</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgaf6c1a6" class="outline-3">
-<h3 id="orgaf6c1a6">Topic 2: Independence, Tests, and Co.</h3>
-<div class="outline-text-3" id="text-orgaf6c1a6">
+<div id="outline-container-orgb28c343" class="outline-3">
+<h3 id="orgb28c343">Topic 2: Independence, Tests, and Co.</h3>
+<div class="outline-text-3" id="text-orgb28c343">
 <ul class="org-ul">
 <li>Crocodiles and rabbits revised (aka black and white balls).</li>
 <li>Dependent and Independent events.</li>
@@ -284,14 +292,14 @@ This repository will be updated with the current materials as the course unfolds
 </ul>
 
 <p>
-📔 <b>Notebook:</b> <a href="./2-independence.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/2-independence.ipynb">(nbviewer)</a> 
+📔 <b>Notebook:</b> <a href="./2-independence.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/2-independence.ipynb">(nbviewer)</a> <a href="https://colab.research.google.com/github/alex-bochkarev/Probs-SMTB-21/blob/main/2-independence.ipynb">(colab)</a> 
 </p>
 </div>
 </div>
 
-<div id="outline-container-org2e2b21d" class="outline-3">
-<h3 id="org2e2b21d">👉 Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.</h3>
-<div class="outline-text-3" id="text-org2e2b21d">
+<div id="outline-container-orgec77539" class="outline-3">
+<h3 id="orgec77539">Topic 3: Random Variables: definition, characteristics, and the Bernoulli scheme.</h3>
+<div class="outline-text-3" id="text-orgec77539">
 <ul class="org-ul">
 <li>Definition of the random variable.</li>
 <li>Quick examples: score on dice; an RV with countably many values (Poisson)</li>
@@ -300,39 +308,60 @@ This repository will be updated with the current materials as the course unfolds
 </ul>
 
 <p>
-📔 <b>Notebook:</b> <a href="./3-random-vars.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/3-random-vars.ipynb">(nbviewer)</a>      
+📔 <b>Notebook:</b> <a href="./3-random-vars.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/3-random-vars.ipynb">(nbviewer)</a> <a href="https://colab.research.google.com/github/alex-bochkarev/Probs-SMTB-21/blob/main/3-random-vars.ipynb">(colab)</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgc3faae1" class="outline-3">
-<h3 id="orgc3faae1">Topic 4: Random Variables: continuous case.</h3>
-<div class="outline-text-3" id="text-orgc3faae1">
+<div id="outline-container-org2383a5b" class="outline-3">
+<h3 id="org2383a5b">Topic 4: Random Variables: continuous case.</h3>
+<div class="outline-text-3" id="text-org2383a5b">
 <ul class="org-ul">
 <li>Motivation: a random variable that "can be anything"</li>
 <li>A histogram.</li>
 <li>PDF, CDF.</li>
-<li>Examples: uniform, normal random variables.</li>
-<li>A numerical illustration for Central Limit Theorem.</li>
+<li>Examples: uniform, normal random variables. (*)</li>
+<li>A numerical illustration for Central Limit Theorem. (*)</li>
 </ul>
+
+<p>
+(*) which we may or may not cover &#x2013; didn't work for English track.
+</p>
+
+<p>
+📔 <b>Notebook:</b> <a href="./4-random-vars-cont.ipynb">(ipynb)</a> <a href="https://nbviewer.jupyter.org/github/alex-bochkarev/Probs-SMTB-21/blob/main/4-random-vars-cont.ipynb">(nbviewer)</a> <a href="https://colab.research.google.com/github/alex-bochkarev/Probs-SMTB-21/blob/main/4-random-vars-cont.ipynb">(colab)</a> 
+</p>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org8bef383" class="outline-3">
-<h3 id="org8bef383">Topic 🏁: Conclusion</h3>
-<div class="outline-text-3" id="text-org8bef383">
+
+<div id="outline-container-orgf7a887d" class="outline-2">
+<h2 id="orgf7a887d">Further reading / learning</h2>
+<div class="outline-text-2" id="text-orgf7a887d">
+<p>
+I am having hard times recommending good literature in English, but:
+</p>
 <ul class="org-ul">
-<li>Quick summary.</li>
-<li>On different/popular types of random variables.</li>
-<li>On random models of random things.</li>
+<li>🌍 <b>online:</b> there are hardcore (but exciting!) university courses. E.g.,  <a href="https://www.edx.org/course/probability-the-science-of-uncertainty-and-data">Probability - The Science of Uncertainty and Data</a> by MiTx (edx.org). I think it overlaps to an extent with the <a href="https://ocw.mit.edu/resources/res-6-012-introduction-to-probability-spring-2018/">OCW</a>.</li>
+<li><p>
+📖 <b>book:</b> There is a classical book by Sheldon M. Ross <b>"Introduction to Probability Models"</b>. Pretty long, but comprehensive, and definitely might be useful if you want to look up something specific.
+</p>
+
+<p>
+Note that a couple of things came up in a discussion during the class: <a href="http://rosalind.info">Rosalind</a> (bioinf + programming) and <a href="https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q">CrashCourse</a> videos.
+</p>
+
+<p>
+Of course, there is also <a href="https://www.khanacademy.org/math/statistics-probability">KhanAcademy</a> and other numerous online courses, videos, and resources on probability theory, of which I am not sure what's really good. If you have a suggestion here &#x2013; please drop me a message!
+</p></li>
 </ul>
-</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Alexey Bochkarev (www.bochkarev.io/contact)</p>
-<p class="date">Created: 2021-07-25 Sun 15:55</p>
+<p class="date">Created: 2021-07-26 Mon 17:37</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
