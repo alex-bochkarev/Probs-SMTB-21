@@ -149,9 +149,12 @@ Further reading / learning
 ══════════════════════════
 
   I am having hard times recommending good literature in English, but:
-  • 🌍 *online:* there are hardcore (but exciting!) university courses.
-    E.g., [Probability - The Science of Uncertainty and Data] by MiTx
-    (edx.org). I think it overlaps to an extent with the [OCW].
+  • 🌍 *Online:*
+    ⁃ there are hardcore (but exciting!) university courses. E.g.,
+      [Probability - The Science of Uncertainty and Data] by MiTx
+      (edx.org). I think it overlaps to an extent with the [OCW].
+    ⁃ Usually, there are surprisingly good wiki articles on specific
+      distributions (e.g., [binomial])
   • 📖 *book:* There is a classical book by Sheldon M. Ross
     *"Introduction to Probability Models"*. Pretty long, but
     comprehensive, and definitely might be useful if you want to look up
@@ -161,9 +164,9 @@ Further reading / learning
     class: [Rosalind] (bioinf + programming) and [CrashCourse] videos.
 
     Of course, there is also [KhanAcademy] and other numerous online
-    courses, videos, and resources on probability theory, of which I am
-    not sure what's really good. If you have a suggestion here – please
-    drop me a message!
+    courses, videos, and other resources on probability theory, of which
+    I am not sure what's really good. If you have a suggestion here –
+    please drop me a message!
 
 
 [Probability - The Science of Uncertainty and Data]
@@ -171,6 +174,8 @@ Further reading / learning
 
 [OCW]
 <https://ocw.mit.edu/resources/res-6-012-introduction-to-probability-spring-2018/>
+
+[binomial] <https://en.wikipedia.org/wiki/Binomial_distribution>
 
 [Rosalind] <http://rosalind.info>
 
