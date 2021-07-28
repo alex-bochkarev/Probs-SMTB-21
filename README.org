@@ -1,4 +1,5 @@
 #+TITLE: A Practical Intro to Probability Theory.
+#+SUBTITLE: AKA (🇷🇺): "Практическое Введение в Теорию Вероятностей"
 #+AUTHOR: Alexey Bochkarev (www.bochkarev.io/contact)
 #+OPTIONS: toc:nil num:nil
 
@@ -60,6 +61,7 @@ This repository will be updated with the current materials as the course unfolds
 
        
 * Further reading / learning
+** In English
   I am having hard times recommending good literature in English, but:
   - 🌍 *Online:*
     + there are hardcore (but exciting!) university courses. E.g.,  [[https://www.edx.org/course/probability-the-science-of-uncertainty-and-data][Probability - The Science of Uncertainty and Data]] by MiTx (edx.org). I think it overlaps to an extent with the [[https://ocw.mit.edu/resources/res-6-012-introduction-to-probability-spring-2018/][OCW]].
@@ -70,11 +72,14 @@ This repository will be updated with the current materials as the course unfolds
 
    Of course, there is also [[https://www.khanacademy.org/math/statistics-probability][KhanAcademy]] and other numerous online courses, videos, and other resources on probability theory, of which I am not sure what's really good. If you have a suggestion here -- please drop me a message!
    
-# 🌍 *Online:* 
-  # - хороший вводный курс на русском: [[https://ru.coursera.org/learn/mathematics-and-python][Математика и Python для анализа данных]] от МФТИ, Яндекс и Ко.
-    # (не только теорвер, но есть неделя "Случайность")
+  - 💻 something on the intersection of programming and probs: I don't have a good recommendation, unfortunately. Never actively used these, but it might be worth checking out the resources from the Competitive Programming crowd and programming interview prep resources? All sorts of [[https://www.hackerrank.com/domains/mathematics?filters%5Bsubdomains%5D%5B%5D=probability][HackerRank]], [[https://codeforces.com/problemset?tags=combinatorics][CodeForces]], [[https://www.hackerearth.com/practice/math/combinatorics/basics-of-combinatorics/tutorial/][HackerEarth (combinatorics)]], [[https://www.codechef.com/tags/problems/probability][CodeChef]], ... I think there's also a sort of hand-picked [[https://codeforces.com/blog/entry/19887][archive]] of TopCoder problems on Probability.
 
-  # 📖 *Books:*
-  # - лекции НГУ: Н.И. Чернова [[https://tvims.nsu.ru/chernova/tv/tv_nsu07.pdf]["Теория вероятностей"]]. 🔥
-  # - "Введение в теорию вероятностей." Колмогоров, Журбенко, Прохоров (!) -- см. [[http://publ.lib.ru/ARCHIVES/B/%27%27Bibliotechka_%27%27Kvant%27%27/_''BK''.html#0023][Библиотечка "Квант"]].
-  # - может быть, [[http://ilib.mccme.ru/pdf/rasomn.pdf]["Рассказы о теории множеств"]] Н.Я. Виленкина
+** In Russian
+🌍 *Online:* 
+ - хороший вводный курс на русском: [[https://ru.coursera.org/learn/mathematics-and-python][Математика и Python для анализа данных]] от МФТИ, Яндекс и Ко.
+  (не только теорвер, но есть неделя "Случайность").
+
+📖 *Books:*
+ - лекции НГУ: Н.И. Чернова [[https://tvims.nsu.ru/chernova/tv/tv_nsu07.pdf]["Теория вероятностей"]]. 🔥
+ - "Введение в теорию вероятностей." Колмогоров, Журбенко, Прохоров (!) -- см. [[http://publ.lib.ru/ARCHIVES/B/%27%27Bibliotechka_%27%27Kvant%27%27/_''BK''.html#0023][Библиотечка "Квант"]].
+ - может быть, [[http://ilib.mccme.ru/pdf/rasomn.pdf]["Рассказы о теории множеств"]] Н.Я. Виленкина
