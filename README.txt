@@ -9,10 +9,11 @@
 
 /SMTB-2021. Based on the [course] for ZPSH-2021 (in Russian)/
 
-*Status:*
-• _English_ track is over (comments / questions / feedback are still
-  very welcome!)
-• _Russian_ track starts 2021-07-28.
+*Status:* both English and Russian tracks are over. Comments, questions,
+ suggestions, and any feedback are *very* welcome! Feel free to drop me
+ an email any time (Discord would also work during the School).
+ Suggestions to the list of resources below and corrections of the
+ materials (if any are necessary) are especially welcome!
 
 
 [course] <https://github.com/alex-bochkarev/zpsh-21-probs>
@@ -23,16 +24,16 @@
 
   *Course point:* A "plain English" / sort-of-intuitive introduction to
    Probability Theory built around numerical examples in Python. We will
-   not prove theorems, but this is a _theoretical_ course: the emphasis
-   is not on "solving problems", but on understanding the math behind
-   random events. What is the /structure/ of randomness? Can we model
-   the length of a Facebook post as a random variable? And a sci-fiction
-   text as a random sequence of letters?.. We will be looking for a
-   balance between the Ivory Tower math and practice of modeling random
-   things. In particular, we will try to build the Probability Space
-   model, discuss what are random variables, what are some of their
-   types and key properties (such as expectation and variance) and
-   briefly touch the hypotheses testing.
+   not prove theorems, but this is a _theoretical_ course. So, the
+   emphasis is not on "solving problems", but on understanding the math
+   behind random events. What is the /structure/ of randomness? Can we
+   model the length of a Facebook post as a random variable? And a
+   sci-fiction text as a random sequence of letters?.. We will be
+   looking for a balance between the Ivory Tower math and practice of
+   modeling random things. In particular, we will try to build the
+   Probability Space model, discuss what are random variables, what are
+   some of their types and key properties (such as expectation and
+   variance) and briefly touch the hypotheses testing.
 
   *Timeframe:* Four classes, 50 minutes each. No mandatory home
    assignments.
@@ -47,11 +48,11 @@
   *Tech needed:* having a working python (preferably python3)
    installation locally along with Jupyter Notebook will help. However,
    you will be just OK using [Google Colab] (in which case you will need
-   just a web browser and a free Google account).
+   just a web browser and a free Google account). I also provide links
+   to pre-rendered notebooks (nbviewer), so that one could review them
+   briefly without running the whole Jupyter.
 
-  This repository will be updated with the current materials as the
-  course unfolds, so come back to check it out! Tentative course outline
-  is as follows.
+  Tentative course outline is as follows.
 
 
 [Google Colab] <https://colab.research.google.com>
@@ -133,7 +134,7 @@ Topic 4: Random Variables: continuous case.
   • Examples: uniform, normal random variables. (*)
   • A numerical illustration for Central Limit Theorem. (*)
 
-  (*) which we may or may not cover – didn't work for English track.
+  (*) which we may or may not cover, depending on time constraints.
 
   📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
@@ -153,17 +154,29 @@ Further reading / learning
 In English
 ──────────
 
-  I am having hard times recommending good literature in English, but:
+  I am having hard times recommending good literature in English (I was
+  studying it mostly in Russian), but:
   • 🌍 *Online:*
+    ⁃ I've been recommended a really cool illustration:
+      <https://seeing-theory.brown.edu/>. I think, it is pretty much in
+      the spirit of the course, but with far better visuals :)
     ⁃ there are hardcore (but exciting!) university courses. E.g.,
       [Probability - The Science of Uncertainty and Data] by MiTx
       (edx.org). I think it overlaps to an extent with the [OCW].
     ⁃ Usually, there are surprisingly good wiki articles on specific
       distributions (e.g., [binomial])
-  • 📖 *book:* There is a classical book by Sheldon M. Ross
-    *"Introduction to Probability Models"*. Pretty long, but
-    comprehensive, and definitely might be useful if you want to look up
-    something specific.
+  • 📖 *Books:*
+    ⁃ There is a classical book by Sheldon M. Ross *"Introduction to
+      Probability Models"*. Pretty long, but comprehensive, and
+      definitely might be useful if you want to look up something
+      specific.
+    ⁃ I also want to mention a "hard" introduction by Grimmett and
+      Stirzaker, *Probability and Random Processes.* I really like this
+      one, because it seems it does not try to hide the complicated
+      (when necessary) math behind simple words, although, of course,
+      gets tough quickly. This is maybe not perfect as first-ever
+      introduction, but might work if you liked these "sigma-algebra"
+      discussions and are up to some serious math 😁.
 
     Note that a couple of things came up in a discussion during the
     class: [Rosalind] (bioinf + programming) and [CrashCourse] videos.
@@ -233,3 +246,16 @@ In Russian
 <http://publ.lib.ru/ARCHIVES/B/%27%27Bibliotechka_%27%27Kvant%27%27/_''BK''.html#0023>
 
 ["Рассказы о теории множеств"] <http://ilib.mccme.ru/pdf/rasomn.pdf>
+
+
+Acknowledgments
+═══════════════
+
+  A big thanks goes to Alexey Zabelkin for the recommendation of "Seeing
+  Theory". I am also very grateful to the awesome students of the
+  Russian and English tracks at [SMTB]-2021 and Puschino Winter School
+  2021 for helping to shape the course (Good luck with your studies!),
+  and to the organizers for making such wonderful events happen.
+
+
+[SMTB] <https://molbioschool.org/en/>
